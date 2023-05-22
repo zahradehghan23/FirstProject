@@ -1,0 +1,614 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #cd9900;
+}
+
+.parent {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+.logo>a>img {
+  width: 200px;
+  height: auto;
+  max-width: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  float: left;
+}
+
+.social {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  float: right;
+  margin-right: 30px;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: rgb(128, 128, 128);
+  background-color: none;
+  margin: 0 2px;
+}
+
+.twitter:hover {
+  color: white;
+  background-color: rgb(0, 172, 238);
+}
+
+.dribble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: rgb(128, 128, 128);
+  background-color: none;
+  margin: 0 2px;
+}
+
+.dribble:hover {
+  color: white;
+  background-color: #ea4c98;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #2c353d;
+  text-align: left;
+  color: #e6e6e6;
+  clear: both;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+
+a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  border-left: 1px solid #272f35;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.search {
+  margin-right: 80px;
+  float: right;
+}
+
+.slider {
+  width: 100%;
+  height: 80vh;
+  background-image: url("../images/superb-backyard-1500x630.jpg");
+  display: flex;
+  align-items: center;
+
+}
+.slider >div {
+  margin-left: 40px;
+}
+h3 {
+  color: white;
+  display: block;
+  font-size: 24px;
+  font-family: sans-serif;
+  word-spacing: 10px;
+  font-weight: 200;
+  transition: all 1s;
+}
+
+.slider p {
+  color: white;
+  width: 80%;
+  font-size: 16px;
+  font-family: sans-serif;
+  transition: all 1s;
+
+}
+
+.bottom {
+  color: white;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  transition: all 1s;
+  font-family: sans-serif;
+}
+
+.learn-more {
+  display: block;
+  background: none;
+  border-radius: 50px;
+  border: 3px solid white;
+  padding: 10px;
+}
+
+.get-a-quote {
+  display: block;
+  background-color: var(--primary-color);
+  margin-left: 10px;
+  padding: 10px;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.yellow-box {
+  width: 100%;
+  height: 20vh;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+
+.yellow-box > p{
+  width: 70%;
+  text-align: center;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  word-spacing: 2px;
+  padding-left: 10px;
+}
+.yellow-bottom{
+  display: block;
+  background: var(--primary-color);
+  border-radius: 50px;
+  border: 3px solid white;
+  padding: 10px;
+  margin-left: 200px;
+}
+h2{
+  justify-content: space-betweens;
+   text-align: center;
+   word-spacing: 1px;
+   font-family: sans-serif;
+   letter-spacing: 0.5px;
+   padding-top: 30px;
+}
+.counteiner{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  font-family: sans-serif;
+}
+.Planning-Architecture{
+  display:block;
+}
+.Planning-Architecture >h4{
+  display: block;
+  color: black;
+  word-spacing: 1px;
+  padding: 50px 0px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.Planning-Architecture >img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.Planning-Architecture >img:hover{
+  filter:opacity(0.3);
+  transition: all 2s;
+}
+.Planning-Architecture > p{
+  display: block;
+  width: 100%;
+  color: #949494;
+  line-height: 25px;
+}
+.Construction{
+  display: block;
+}
+.Construction >h4{
+  display: block;
+  color: black;
+  word-spacing: 1px;
+  padding: 50px 0px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.Construction >img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.Construction >img:hover{
+  filter:opacity(0.3);
+  transition: all 2s;
+}
+.Construction > p{
+  display: block;
+  width: 100%;
+  color: #949494;
+  line-height: 25px;
+}
+.House-renovation{
+  display:block;
+}
+.House-renovation >h4{
+  display: block;
+  color: black;
+  word-spacing: 1px;
+  padding: 50px 0px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.House-renovation >img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.House-renovation >img:hover{
+  filter:opacity(0.3);
+  transition: all 2s;
+}
+.House-renovation > p{
+  display: block;
+  width: 100%;
+  color: #949494;
+  line-height: 25px;
+}
+.Small-Projects{
+  display:block;
+}
+.Small-Projects >h4{
+  display: block;
+  color: black;
+  word-spacing: 1px;
+  padding: 50px 0px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.Small-Projects >img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.Small-Projects >img:hover{
+  filter:opacity(0.3);
+  transition: all 2s;
+}
+.Small-Projects > p{
+  display: block;
+  width: 100;
+  color: #949494;
+  line-height: 25px;
+}
+.Big-Projects{
+  display:block;
+}
+.Big-Projects >h4{
+  display: block;
+  color: black;
+  word-spacing: 1px;
+  padding: 50px 0px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.Big-Projects >img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.Big-Projects >img:hover{
+  filter:opacity(0.3);
+  transition: all 2s;
+}
+.Big-Projects > p{
+  display: block;
+  width: 100%;
+  color: #949494;
+  line-height: 25px;
+}
+.Interior-Design{
+  display:block;
+}
+.Interior-Design > h4{
+  display: block;
+  color: black;
+  word-spacing: 1px;
+  padding: 50px 0px;
+  font-weight: normal;
+  font-size: 20px;
+}
+.Interior-Design >img{
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.Interior-Design >img:hover{
+  filter:opacity(0.3);
+  transition: all 2s;
+}
+.Interior-Design > p{
+  display: block;
+  width: 100%;
+  color: #949494;
+  line-height: 25px;
+}
+
+
+.gray{
+  padding: 20px;
+  background-image: url("/assets/images/house-wire-model-fade-white-1500x1085.png");
+  background-color: #2c353d;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 100vh;
+}
+.gray > h2{
+  color: white;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.gray-box{
+  display: grid;
+  width: 100%;
+  height: 80vh;
+  padding: 50px;
+  gap: 40px;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  font-family: sans-serif;
+}
+.gray-box > div > .icon{
+  width: 80px;
+  height: 80px;
+  color: white;
+  border: solid 0.5px white;
+  border-radius: 50px;
+  text-align: center;
+  padding-top: 30px;
+  float: left;
+  margin-right: 20px;
+  }
+  .gray-box > div > div > i{
+    font-size: x-large;
+  }
+.gray-box > div > h3{
+  font-family: sans-serif;
+}
+.gray-box > div > p{
+  padding: 10px;
+  color: white;
+  font-family: sans-serif;
+  overflow: hidden;
+  line-height: 20px;
+}
+.work >h2{
+  color: black;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+.pictures{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+.pictures > div > img{
+  width: 360px;
+  height: 280px;
+  margin: 10px;
+  filter:opacity(0.7);
+}
+.last{
+  width: 100%;
+  padding: 30px;
+}
+.last >h2{
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.partners{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: center;
+  margin: 0px 20px;
+  gap: 0 0;
+  margin-top: 40px;
+
+}
+.partners > div > img{
+  width: 300px;
+  height: 100px;
+  margin: 0;
+  border: solid 1px rgb(184, 170, 170);
+}
+.customers{
+  margin: -2px 0;
+}
+footer {
+  background-color: #2c353d;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+  width: 20%;
+  z-index: 1;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  border-color: #5b646b;
+}
+
+.footer-card {
+  padding: 0;
+  margin: 30px 0 30px 0;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 0px 38px;
+}
+
+.footer-card h3 {
+  border-style: solid;
+  border-width: 0.1px;
+  padding: 10px 0;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 17px;
+  font-weight: 100;
+  word-spacing: normal;
+}
+
+.footer-card p {
+  margin: 0.85em 0;
+  color: white;
+  font-weight: lighter;
+  line-height: 25px;
+}
+
+.social-media-icon-box {
+  display: inline-block;
+  border: 1px solid transparent;
+  background-color: #2ba3c9;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.social-media-icon-box i {
+  padding: 5px 0;
+  font-size: 24px;
+}
+
+.social-media-title-box {
+  margin-left: 6px;
+  display: grid;
+}
+
+.social-media {
+  display: flex;
+}
+
+.follow-us {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rss-feed {
+  background-color: orange;
+}
+
+.social-media h4 {
+  font-weight: 800;
+}
+
+.projects-list {
+  margin-left: unset;
+}
+
+.project-image {
+  background-color: #5b646b;
+  display: inline-block;
+  padding: 5px 5px 2px;
+  border-radius: 2px;
+  border: 1px solid #a9b8c4;
+}
+
+.project-image img {
+  width: 40px;
+  height: 40px;
+}
+
+.projects-list-items-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-date {
+  font-size: 13px;
+  color: white;
+  line-height: 10px;
+  margin-left: 9px;
+  margin-top: 5px;
+}
+
+.under-footer {
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 13px;
+}
+
+.under-footer-links {
+  color: white;
+  word-spacing: 13px;
+}
+
+@media (max-width: 600px) {
+  .yellow-box {
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    padding: 10px;
+  }
+  .yellow-box > p{
+    left: 3px;
+  }
+  .gray-box{
+    grid: unset;
+  }
+  .gray{
+    height: 175vh;
+  }
+  .column{
+    width: 100%;
+    flex: none;
+  }
+  .pictures{
+    grid: none;
+  }
+  .partners{
+    grid: none;
+  }
+}

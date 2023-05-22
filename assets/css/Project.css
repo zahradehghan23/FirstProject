@@ -1,0 +1,797 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #cd9900;
+}
+
+.parent {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 1rem 2rem;
+}
+
+.logo>a>img {
+  width: 200px;
+  height: auto;
+  max-width: auto;
+  margin-bottom: 15px;
+  float: left;
+}
+
+.social {
+  width: auto;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  float: right;
+  margin-right: 30px;
+}
+
+.twitter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: rgb(128, 128, 128);
+  background-color: none;
+  margin: 0 2px;
+}
+
+.twitter:hover {
+  color: white;
+  background-color: rgb(0, 172, 238);
+}
+
+.dribble {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: rgb(128, 128, 128);
+  background-color: none;
+  margin: 0 2px;
+}
+
+.dribble:hover {
+  color: white;
+  background-color: #ea4c98;
+}
+
+nav {
+  width: 100%;
+  height: 50px;
+  background-color: #2c353d;
+  text-align: left;
+  color: #e6e6e6;
+  clear: both;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul {
+  margin-left: 50px;
+  font-family: sans-serif;
+}
+
+a {
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+li {
+  display: inline;
+  border-left: 1px solid #272f35;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.search {
+  margin-right: 80px;
+  float: right;
+}
+
+.projcet-page {
+  margin-top: 3rem;
+}
+
+.list {
+  margin: 1rem auto 2rem;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+
+.list>li {
+  border: none;
+  margin-right: 0px;
+  padding: 4px;
+}
+
+.list>li>a,
+.list>li>span {
+  color: rgb(97, 97, 97);
+}
+
+.list>li>span {
+  margin-left: 1rem;
+}
+
+.list>li.active>a {
+  color: var(--primary-color);
+}
+
+.project-parent1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.project-parent1>img {
+  width: 60%;
+  flex: 60%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.project-parent1>img:hover {
+  filter: opacity(30%);
+  cursor: pointer;
+}
+
+.project-parent1>div {
+  width: 40%;
+  flex: 40%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  height: 300px;
+  position: relative;
+}
+
+.project-parent1>div>span {
+  border: 20px solid transparent;
+  border-left: 20px solid white;
+
+  position: absolute;
+  right: -28px;
+}
+
+.project-parent1>div>div {
+  width: 80%;
+}
+
+.project-parent1>div>div>h2 {
+  color: rgb(66, 66, 66);
+  text-align: left;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.project-parent1>div>div>p {
+  color: rgb(130, 130, 130);
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.project-parent2 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.project-parent2>img {
+  width: 60%;
+  flex: 60%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.project-parent2>img:hover {
+  filter: opacity(30%);
+  cursor: pointer;
+}
+
+.project-parent2>div {
+  width: 40%;
+  flex: 40%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  height: 300px;
+  position: relative;
+}
+
+.project-parent2>div>span {
+  border: 20px solid transparent;
+  border-left: 20px solid white;
+
+  position: absolute;
+  right: -28px;
+}
+
+.project-parent2>div>div {
+  width: 80%;
+}
+
+.project-parent2>div>div {
+  width: 80%;
+}
+
+.project-parent2>div>div>h2 {
+  color: rgb(66, 66, 66);
+  text-align: left;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.project-parent2>div>div>p {
+  color: rgb(130, 130, 130);
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.project-parent3 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.project-parent3>img {
+  width: 60%;
+  flex: 60%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.project-parent3>img:hover {
+  filter: opacity(30%);
+  cursor: pointer;
+}
+
+.project-parent3>div {
+  width: 40%;
+  flex: 40%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  height: 300px;
+  position: relative;
+}
+
+.project-parent3>div>span {
+  border: 20px solid transparent;
+  border-left: 20px solid white;
+
+  position: absolute;
+  right: -28px;
+}
+
+.project-parent3>div>div {
+  width: 80%;
+}
+
+.project-parent3>div>div>h2 {
+  color: rgb(66, 66, 66);
+  text-align: left;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.project-parent3>div>div>p {
+  color: rgb(130, 130, 130);
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.project-parent4 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.project-parent4>img {
+  width: 60%;
+  flex: 60%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.project-parent4>img:hover {
+  filter: opacity(30%);
+  cursor: pointer;
+}
+
+.project-parent4>div {
+  width: 40%;
+  flex: 40%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  height: 300px;
+  position: relative;
+}
+
+.project-parent4>div>span {
+  border: 20px solid transparent;
+  border-left: 20px solid white;
+  position: absolute;
+  right: -28px;
+}
+
+.project-parent4>div>div {
+  width: 80%;
+}
+
+.project-parent4>div>div>h2 {
+  color: rgb(66, 66, 66);
+  text-align: left;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.project-parent4>div>div>p {
+  color: rgb(130, 130, 130);
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.project-parent5 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.project-parent5>img {
+  width: 60%;
+  flex: 60%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.project-parent5>img:hover {
+  filter: opacity(30%);
+  cursor: pointer;
+}
+
+.project-parent5>div {
+  width: 40%;
+  flex: 40%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  height: 300px;
+  position: relative;
+}
+
+.project-parent5>div>span {
+  border: 20px solid transparent;
+  border-left: 20px solid white;
+
+  position: absolute;
+  right: -28px;
+}
+
+.project-parent5>div>div {
+  width: 80%;
+}
+
+.project-parent5>div>div {
+  width: 80%;
+}
+
+.project-parent5>div>div>h2 {
+  color: rgb(66, 66, 66);
+  text-align: left;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.project-parent5>div>div>p {
+  color: rgb(130, 130, 130);
+  text-align: left;
+  font-family: sans-serif;
+}
+
+.project-parent6 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+}
+
+.project-parent6>img {
+  width: 60%;
+  flex: 60%;
+  height: 300px;
+  display: block;
+  object-fit: cover;
+  transition: all 1s;
+}
+
+.project-parent6>img:hover {
+  filter: opacity(30%);
+  cursor: pointer;
+}
+
+.project-parent6>div {
+  width: 40%;
+  flex: 40%;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #eee;
+  height: 300px;
+  position: relative;
+}
+
+.project-parent6>div>span {
+  border: 20px solid transparent;
+  border-left: 20px solid white;
+
+  position: absolute;
+  right: -28px;
+}
+
+.project-parent6>div>div {
+  width: 80%;
+}
+
+.project-parent6>div>div {
+  width: 80%;
+}
+
+.project-parent6>div>div>h2 {
+  color: rgb(66, 66, 66);
+  text-align: left;
+  margin-bottom: 1rem;
+  font-family: sans-serif;
+}
+
+.project-parent6>div>div>p {
+  color: rgb(130, 130, 130);
+  text-align: left;
+  font-family: sans-serif;
+}
+
+footer {
+  background-color: #2c353d;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  flex: 25%;
+  padding: 20px;
+  width: 20%;
+  z-index: 1;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  border-color: #5b646b;
+}
+
+.footer-card {
+  padding: 0;
+  margin: 30px 0 30px 0;
+  overflow: hidden;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 0px 38px;
+}
+
+.footer-card h3 {
+  border-style: solid;
+  border-width: 0.1px;
+  padding: 10px 0;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 17px;
+  font-weight: 100;
+  word-spacing: normal;
+  color: white;
+}
+
+.footer-card p {
+  margin: 0.85em 0;
+  color: white;
+  font-weight: lighter;
+  line-height: 25px;
+}
+
+.social-media-icon-box {
+  display: inline-block;
+  border: 1px solid transparent;
+  background-color: #2ba3c9;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 3px;
+}
+
+.social-media-icon-box i {
+  padding: 5px 0;
+  font-size: 24px;
+}
+
+.social-media-title-box {
+  margin-left: 6px;
+  display: grid;
+}
+
+.social-media {
+  display: flex;
+}
+
+.follow-us {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rss-feed {
+  background-color: orange;
+}
+
+.social-media h4 {
+  font-weight: 800;
+}
+
+.projects-list {
+  margin-left: unset;
+}
+
+.project-image {
+  background-color: #5b646b;
+  display: inline-block;
+  padding: 5px 5px 2px;
+  border-radius: 2px;
+  border: 1px solid #a9b8c4;
+}
+
+.project-image img {
+  width: 40px;
+  height: 40px;
+}
+
+.projects-list-items-box {
+  display: flex;
+  align-items: flex-start;
+}
+
+.project-date {
+  font-size: 13px;
+  color: white;
+  line-height: 10px;
+  margin-left: 9px;
+  margin-top: 5px;
+}
+
+.under-footer {
+  height: 50px;
+  background-color: #808080;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  font-size: 13px;
+}
+
+.under-footer-links {
+  color: white;
+  word-spacing: 13px;
+}
+
+@media (max-width: 600px) {
+  .project-parent1 {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .project-parent1>img {
+    width: 100%;
+    flex: 100%;
+    height: auto;
+  }
+
+  .project-parent1>div {
+    width: 100%;
+    flex: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    height: auto;
+    position: relative;
+  }
+
+  .project-parent1>div>span {
+    display: none;
+  }
+
+  .project-parent2 {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .project-parent2>img {
+    width: 100%;
+    flex: 100%;
+    height: auto;
+  }
+
+  .project-parent2>div {
+    width: 100%;
+    flex: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    height: auto;
+    position: relative;
+  }
+
+  .project-parent2>div>span {
+    display: none;
+  }
+
+  .project-parent3 {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .project-parent3>img {
+    width: 100%;
+    flex: 100%;
+    height: auto;
+  }
+
+  .project-parent3>div {
+    width: 100%;
+    flex: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    height: auto;
+    position: relative;
+  }
+
+  .project-parent3>div>span {
+    display: none;
+  }
+
+  .project-parent4 {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .project-parent4>img {
+    width: 100%;
+    flex: 100%;
+    height: auto;
+  }
+
+  .project-parent4>div {
+    width: 100%;
+    flex: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    height: auto;
+    position: relative;
+  }
+
+  .project-parent4>div>span {
+    display: none;
+  }
+
+  .project-parent5 {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .project-parent1>img {
+    width: 100%;
+    flex: 100%;
+    height: auto;
+  }
+
+  .project-parent5>div {
+    width: 100%;
+    flex: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    height: auto;
+    position: relative;
+  }
+
+  .project-parent5>div>span {
+    display: none;
+  }
+
+  .project-parent6 {
+    flex-wrap: wrap;
+    height: auto;
+  }
+
+  .project-parent6>img {
+    width: 100%;
+    flex: 100%;
+    height: auto;
+  }
+
+  .project-parent6>div {
+    width: 100%;
+    flex: 100%;
+    padding: 2rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    height: auto;
+    position: relative;
+  }
+
+  .project-parent6>div>span {
+    display: none;
+  }
+  .column{
+    width: 100%;
+    flex: none;
+  }
+  
+}
